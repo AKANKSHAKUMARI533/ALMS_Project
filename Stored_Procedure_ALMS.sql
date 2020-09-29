@@ -74,7 +74,7 @@ BEGIN
 END
 GO
 
-exec spAssignProjectToEmployee 1001, 101, 1002;
+exec spAssignProjectToEmployee 1002, 102, 1001;
 select * from Employee_Project;
 
 
@@ -89,7 +89,7 @@ BEGIN
 END
 GO
 
-exec spUpdateEmployeeOnProject @pId = 102, @eId = 1001, @mId = 1002
+exec spUpdateEmployeeOnProject @pId = 101, @eId = 1003, @mId = 1001
 
 select * from Employee_Project ;
 
@@ -202,7 +202,7 @@ BEGIN
 END
 GO
 
-exec spApproveRejectAttendanceRequest @status_Of_Attendance = 'p', @aId = 2;
+exec spApproveRejectAttendanceRequest @status_Of_Attendance = 'p', @aId = 8;
 select * from Attendance;
 
 
@@ -211,22 +211,23 @@ select * from Attendance;
 /* Employee Module---------------------add employee-----------------------*/
 
 CREATE PROCEDURE spAddEmployee	
-	@Employee_Password NVARCHAR(30) ,
 	@Employee_Name NVARCHAR(50),
 	@Employee_Email NVARCHAR(50) ,
 	@Employee_Phone_Number NVARCHAR(13),
 	@Employee_Role NVARCHAR(30),
+	@Employee_Status NVARCHAR(10),
+	@Employee_Password NVARCHAR(30),
 	@mId INT,
 	@pId INT 
 AS
 BEGIN
 	SET NOCOUNT OFF;
-	INSERT INTO Employee VALUES(@Employee_Password,@Employee_Name,@Employee_Email,@Employee_Phone_Number
-	,@Employee_Role,@mId, @pId);
+	INSERT INTO Employee VALUES(@Employee_Name, @Employee_Email, @Employee_Phone_Number,
+	@Employee_Role, @Employee_Status, @Employee_Password, @mId, @pId);
 END
 GO
 
-exec spAddEmployee 'password', 'dhara', 'dhara@gmail.com','8888888888','Analyst',202,101;
+exec spAddEmployee 'dhara', 'dhara@gmail.com','8888888888','Analyst','Active', 'password',1001,101;
 select * from employee;
 
 /*-----------------Delete Employee -------------------------*/
@@ -239,11 +240,13 @@ CREATE PROCEDURE spDeleteEmployee
 AS
 BEGIN
 	SET NOCOUNT OFF;
-	DELETE FROM Employee where Employee_ID = @eId;
+	UPDATE Employee  SET Employee_Status = 'Inactive' where Employee_ID = @eId;
 END
 GO
 
-exec spDeleteEmployee 1002; 
+select * from Employee
+
+exec spDeleteEmployee 1003; 
 select * from employee;
 select * from Attendance;
 
@@ -252,21 +255,23 @@ select * from Attendance;
 
 CREATE PROCEDURE spModifyEmployeeDetails
 	@eId int,
-	@Employee_Password NVARCHAR(30) ,
 	@Employee_Name NVARCHAR(50),
 	@Employee_Email NVARCHAR(50) ,
 	@Employee_Phone_Number NVARCHAR(13),
 	@Employee_Role NVARCHAR(30),
+	@Employee_Status NVARCHAR(10),
+	@Employee_Password NVARCHAR(30) ,
 	@Manager_ID INT,
 	@Project_Id INT 
 AS
 BEGIN
 	SET NOCOUNT OFF;
-	update Employee set  Employee_Password=@Employee_Password,
-	Employee_Name=@Employee_Name,
+	update Employee set  Employee_Name=@Employee_Name,
 	Employee_Email=@Employee_Email,
 	Employee_Phone_Number=@Employee_Phone_Number,
 	Employee_Role=@Employee_Role,
+	Employee_Status = @Employee_Status,
+	Employee_Password=@Employee_Password,
 	Manager_ID=@Manager_ID,
 	Project_Id=@Project_Id
 	where Employee_ID = @eId;
@@ -275,11 +280,12 @@ GO
 
 exec spModifyEmployeeDetails 
 @eId = 1002,
-	@Employee_Password = 'asdasd' ,
 	@Employee_Name ='dhara',
 	@Employee_Email = 'radha@gmail.com' ,
 	@Employee_Phone_Number= '4545676765',
 	@Employee_Role ='manager',
+	@Employee_Status = 'Active',
+	@Employee_Password = 'asdasd' ,
 	@Manager_ID =1001,
 	@Project_Id =101; 
 
@@ -302,6 +308,18 @@ GO
 
 exec spLoginEmployee 1002, asdasd;
 
+
+CREATE PROCEDURE spLoginAdmin
+	@adminId int,
+	@password nvarchar(10)
+AS
+BEGIN
+	SET NOCOUNT OFF;
+	select * from Admin where Admin_ID = @adminId and Admin_Password = @password;
+END
+GO
+
+exec spLoginAdmin 100001, password;
 
 
 
