@@ -1,0 +1,6 @@
+C:\Users\amarp\source\repos\ALMS\ALMSDAL\bin\Debug\ALMSDAL.dll
+C:\Users\amarp\source\repos\ALMS\ALMSDAL\bin\Debug\ALMSDAL.pdb
+C:\Users\amarp\source\repos\ALMS\ALMSDAL\obj\Debug\ALMSDAL.csprojAssemblyReference.cache
+C:\Users\amarp\source\repos\ALMS\ALMSDAL\obj\Debug\ALMSDAL.csproj.CoreCompileInputs.cache
+C:\Users\amarp\source\repos\ALMS\ALMSDAL\obj\Debug\ALMSDAL.dll
+C:\Users\amarp\source\repos\ALMS\ALMSDAL\obj\Debug\ALMSDAL.pdb

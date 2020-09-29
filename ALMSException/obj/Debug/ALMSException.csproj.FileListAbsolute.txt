@@ -1,0 +1,6 @@
+C:\Users\amarp\source\repos\ALMS\ALMSException\bin\Debug\ALMSException.dll
+C:\Users\amarp\source\repos\ALMS\ALMSException\bin\Debug\ALMSException.pdb
+C:\Users\amarp\source\repos\ALMS\ALMSException\obj\Debug\ALMSException.csprojAssemblyReference.cache
+C:\Users\amarp\source\repos\ALMS\ALMSException\obj\Debug\ALMSException.csproj.CoreCompileInputs.cache
+C:\Users\amarp\source\repos\ALMS\ALMSException\obj\Debug\ALMSException.dll
+C:\Users\amarp\source\repos\ALMS\ALMSException\obj\Debug\ALMSException.pdb

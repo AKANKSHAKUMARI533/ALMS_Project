@@ -1,0 +1,6 @@
+C:\Users\amarp\source\repos\ALMS\ALMSEntity\bin\Debug\ALMSEntity.dll
+C:\Users\amarp\source\repos\ALMS\ALMSEntity\bin\Debug\ALMSEntity.pdb
+C:\Users\amarp\source\repos\ALMS\ALMSEntity\obj\Debug\ALMSEntity.csprojAssemblyReference.cache
+C:\Users\amarp\source\repos\ALMS\ALMSEntity\obj\Debug\ALMSEntity.csproj.CoreCompileInputs.cache
+C:\Users\amarp\source\repos\ALMS\ALMSEntity\obj\Debug\ALMSEntity.dll
+C:\Users\amarp\source\repos\ALMS\ALMSEntity\obj\Debug\ALMSEntity.pdb

@@ -1,0 +1,15 @@
+C:\Users\amarp\source\repos\ALMS\ALMSPL\bin\Debug\ALMSPL.exe.config
+C:\Users\amarp\source\repos\ALMS\ALMSPL\bin\Debug\ALMSPL.exe
+C:\Users\amarp\source\repos\ALMS\ALMSPL\bin\Debug\ALMSPL.pdb
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.csprojAssemblyReference.cache
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\MainWindow.g.cs
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\App.g.cs
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL_MarkupCompile.cache
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL_MarkupCompile.lref
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\MainWindow.baml
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.g.resources
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.Properties.Resources.resources
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.csproj.GenerateResource.cache
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.csproj.CoreCompileInputs.cache
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.exe
+C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.pdb
