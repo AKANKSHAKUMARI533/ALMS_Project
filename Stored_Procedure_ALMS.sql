@@ -158,7 +158,7 @@ BeGIN
  exec spModifyAttendance @Attedance_Type ='aaa',@Attedance_Date='2020-08-08',@In_Time='20:00:00',
  @Out_Time='20:00:00',@Status_Of_Attendance='ga',@Status_Update_Date ='2020-08-06',
  @Status_Updated_By=1001, @Employee_ID=1002,
- @Manager_ID=1001 , @aId = 5;
+ @Manager_ID=1001 , @aId = 3;
 
  select * from Attendance;
 
@@ -173,7 +173,7 @@ BEGIN
 END
 GO
 
-exec spDeleteAttendance 6;
+exec spDeleteAttendance 3;
 select * from attendance;
 
 /*---------------------------------attandanceDetailsDisplay------------------------*/
@@ -202,7 +202,7 @@ BEGIN
 END
 GO
 
-exec spApproveRejectAttendanceRequest @status_Of_Attendance = 'a', @aId = 3;
+exec spApproveRejectAttendanceRequest @status_Of_Attendance = 'p', @aId = 2;
 select * from Attendance;
 
 
@@ -243,9 +243,9 @@ BEGIN
 END
 GO
 
-exec spDeleteEmployee 1001; 
+exec spDeleteEmployee 1002; 
 select * from employee;
-
+select * from Attendance;
 
 
 /*---------------------------Modify employee details -----------------------------*/
