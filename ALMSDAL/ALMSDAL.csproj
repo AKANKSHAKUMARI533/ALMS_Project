@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="AdminDAL.cs" />
     <Compile Include="AttedanceDAL.cs" />
+    <Compile Include="DALStatic.cs" />
     <Compile Include="EmployeeDAL.cs" />
     <Compile Include="LeaveDAL.cs" />
     <Compile Include="LoginDAL.cs" />

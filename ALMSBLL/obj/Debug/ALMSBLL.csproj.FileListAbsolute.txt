@@ -4,3 +4,16 @@ C:\Users\amarp\source\repos\ALMS\ALMSBLL\obj\Debug\ALMSBLL.csprojAssemblyReferen
 C:\Users\amarp\source\repos\ALMS\ALMSBLL\obj\Debug\ALMSBLL.csproj.CoreCompileInputs.cache
 C:\Users\amarp\source\repos\ALMS\ALMSBLL\obj\Debug\ALMSBLL.dll
 C:\Users\amarp\source\repos\ALMS\ALMSBLL\obj\Debug\ALMSBLL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSBLL.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSBLL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.csprojAssemblyReference.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.csproj.CoreCompileInputs.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSDAL.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSEntity.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSException.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSDAL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSEntity.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSException.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.csproj.CopyComplete

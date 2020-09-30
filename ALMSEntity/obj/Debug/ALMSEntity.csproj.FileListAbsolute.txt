@@ -4,3 +4,9 @@ C:\Users\amarp\source\repos\ALMS\ALMSEntity\obj\Debug\ALMSEntity.csprojAssemblyR
 C:\Users\amarp\source\repos\ALMS\ALMSEntity\obj\Debug\ALMSEntity.csproj.CoreCompileInputs.cache
 C:\Users\amarp\source\repos\ALMS\ALMSEntity\obj\Debug\ALMSEntity.dll
 C:\Users\amarp\source\repos\ALMS\ALMSEntity\obj\Debug\ALMSEntity.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSEntity\bin\Debug\ALMSEntity.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSEntity\bin\Debug\ALMSEntity.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSEntity\obj\Debug\ALMSEntity.csprojAssemblyReference.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSEntity\obj\Debug\ALMSEntity.csproj.CoreCompileInputs.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSEntity\obj\Debug\ALMSEntity.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSEntity\obj\Debug\ALMSEntity.pdb

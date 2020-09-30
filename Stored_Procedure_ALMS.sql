@@ -206,6 +206,150 @@ exec spApproveRejectAttendanceRequest @status_Of_Attendance = 'p', @aId = 8;
 select * from Attendance;
 
 
+--=======================================================================================
+
+--Request Leave
+CREATE PROCEDURE spRequestLeave  
+	@LeaveType NVARCHAR(30),
+	@NoOfDays int,
+	@LeaveBalance int,
+	@LeaveDateFrom  Date,
+	@LeaveDateTo Date,
+	@Status nvarchar(30),
+	@eId  int,
+	@mId int
+AS
+BEGIN
+	
+	SET NOCOUNT OFF;
+	INSERT INTO Leave VALUES(@LeaveType, @NoOfDays, @LeaveBalance, @LeaveDateFrom, @LeaveDateTo,@Status, @eId, @mId);
+END
+GO
+select * from Employee;
+Exec spRequestLeave 'x',5,5,'2020-10-12','2020-10-17','Pending',1002,1001;
+Exec spRequestLeave 'p',2,3,'2020-10-12','2020-10-14','Accepted',1003,1001;
+Exec spRequestLeave 'm',3,5,'2020-10-12','2020-10-15','Rejected',1004,1001;
+Exec spRequestLeave 'p',1,4,'2020-10-12','2020-10-13','Pending',1002,1001;
+
+select * from leave;
+
+
+--Check Status of Leave Request
+CREATE PROCEDURE spStatusOfLeave
+  @LeaveRequestId int
+
+As
+Begin 
+Set Nocount OFF;
+
+select Leave_Status from Leave where leave.Leave_Request_ID=@LeaveRequestId;
+END
+GO
+
+exec spStatusOfLeave 3
+
+
+--Delete Leave Request
+CREATE PROCEDURE spDeleteLeaveRequest
+ @LeaveRequestId int
+
+ As
+Begin 
+Set Nocount OFF;
+
+delete  from Leave where leave.Leave_Request_ID=@LeaveRequestId;
+END
+GO
+
+exec spDeleteLeaveRequest 3;
+
+select * from Leave;
+
+
+-- Modify requested leave
+Create PROCEDURE spModifyLeaves 
+  @LeaveRequestId int,
+  @LeaveType NVARCHAR(30),
+	@NoOfDays int,
+	@LeaveBalance int,
+	@LeaveDateFrom  Date,
+	@LeaveDateTo Date,
+	@Status nvarchar(30),
+	@eId  int,
+	@mId int
+ As
+Begin 
+Set Nocount OFF;
+
+UPDATE Leave  
+            SET    LeaveType=  @LeaveType,  
+                   NO_Of_Days = @NoOfDays,  
+                   Leave_Balance = @LeaveBalance,  
+                   Leave_Date_From = @LeaveDateFrom ,
+				   Leave_Date_To=@LeaveDateTo,
+				   Leave_Status=@Status,
+				   Employee_ID=@eId,
+				  Manager_ID =@mId
+            WHERE  Leave_Request_ID = @LeaveRequestId 
+END
+GO
+
+exec spModifyLeaves 2,'mm',5,08,'2020-11-12','2020-11-17','Accepted',1002,1001;
+
+select * from Leave;
+
+
+--Leave Credit
+CREATE PROCEDURE spLeaveBalance
+
+As
+Begin 
+Set Nocount OFF;
+
+select Leave_Balance  from Leave ;
+END
+GO
+
+
+--Leave History
+Create Procedure spLeaveHistory
+	 @EmployeeID int
+ As
+Begin 
+Set Nocount OFF;
+
+select * from Leave where Employee_ID=@EmployeeID;
+END
+GO
+
+
+--List of Leave request in pending status
+Create Procedure spApproveRejectLeaveRequest
+	
+ As
+Begin 
+Set Nocount OFF;
+
+select * from Leave where Leave_Status  like'%Pending%' ;
+END
+GO
+
+Exec spApproveRejectLeaveRequest;
+
+--List of Requested Leaves
+Create Procedure spListOfRequestedLeaves
+	
+ As
+Begin 
+Set Nocount on;
+
+select * from Leave;
+END
+GO
+
+exec spListOfRequestedLeaves;
+
+
 
 
 /* Employee Module---------------------add employee-----------------------*/

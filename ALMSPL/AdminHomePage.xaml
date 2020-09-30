@@ -1,0 +1,16 @@
+﻿<Window x:Class="ALMSPL.AdminHomePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALMSPL"
+        mc:Ignorable="d"
+        Title="AdminHomePage" Height="450" Width="800">
+    <Grid Background="#FFA3BCD7">
+        <Label Content="Welcome ...Admin Home Page" HorizontalAlignment="Left" Margin="193,136,0,0" VerticalAlignment="Top" Height="60" Width="342" FontSize="24"/>
+        <Button Content="Project" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="113" Height="43" FontSize="24" Background="#FF59B730" BorderBrush="#FF370909"/>
+        <Button Content="View Employee" HorizontalAlignment="Left" Margin="229,10,0,0" VerticalAlignment="Top" Width="203" Height="43" FontSize="24" Background="#FF59B730" BorderBrush="#FF370909"/>
+        <Button Content="View Manager" HorizontalAlignment="Left" Margin="544,10,0,0" VerticalAlignment="Top" Width="203" Height="43" FontSize="24" Background="#FF59B730" BorderBrush="#FF370909"/>
+
+    </Grid>
+</Window>
