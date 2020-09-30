@@ -4,3 +4,9 @@ C:\Users\amarp\source\repos\ALMS\ALMSException\obj\Debug\ALMSException.csprojAss
 C:\Users\amarp\source\repos\ALMS\ALMSException\obj\Debug\ALMSException.csproj.CoreCompileInputs.cache
 C:\Users\amarp\source\repos\ALMS\ALMSException\obj\Debug\ALMSException.dll
 C:\Users\amarp\source\repos\ALMS\ALMSException\obj\Debug\ALMSException.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSException\bin\Debug\ALMSException.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSException\bin\Debug\ALMSException.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSException\obj\Debug\ALMSException.csprojAssemblyReference.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSException\obj\Debug\ALMSException.csproj.CoreCompileInputs.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSException\obj\Debug\ALMSException.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSException\obj\Debug\ALMSException.pdb

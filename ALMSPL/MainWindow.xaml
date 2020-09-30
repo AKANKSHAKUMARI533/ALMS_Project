@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:ALMSPL"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFABB2CE">
+        <TextBlock HorizontalAlignment="Left" Margin="306,36,0,0" TextWrapping="Wrap" Text=" User Login" VerticalAlignment="Top" Height="48" Width="186" FontSize="24" Foreground="#FF420404" Background="#FFABB2CE" FontWeight="Bold" TextDecorations="{x:Null}"/>
+        <Label x:Name="LabelUserId" Content="User ID :" HorizontalAlignment="Left" Margin="241,118,0,0" VerticalAlignment="Top" Width="81" FontWeight="Bold" Height="31" FontSize="16"/>
+        <Label x:Name="LabelPassword" Content="Password :" HorizontalAlignment="Left" Margin="221,172,0,0" VerticalAlignment="Top" Width="92" FontWeight="Bold" Height="31" FontSize="16"/>
+        <TextBox x:Name="txtUserId" HorizontalAlignment="Left" Height="23" Margin="354,126,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="138" Background="#FFABB2CE" BorderBrush="#FF020408" TextChanged="txtUserId_TextChanged" BorderThickness="0,0,0,2" AutomationProperties.HelpText="Enter User ID"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="354,172,0,0" VerticalAlignment="Top" Width="138" Height="31" Background="#FFABB2CE" BorderBrush="#FF030306" BorderThickness="0,0,0,2"/>
+        <RadioButton x:Name="rbtnAdmin" GroupName="UserType" Content="Admin" HorizontalAlignment="Left" Margin="241,238,0,0" VerticalAlignment="Top" Width="130" Height="31" Checked="rbtnAdmin_Checked" AutomationProperties.Name="Admin" FontWeight="Bold" FontSize="14"/>
+        <RadioButton x:Name="rbtnEmployee" GroupName="UserType" Content="Employee" HorizontalAlignment="Left" Margin="354,238,0,0" VerticalAlignment="Top" Width="130" Height="31" Checked="rbtnEmployee_Checked" AutomationProperties.Name="Employee" FontWeight="Bold" FontSize="14" />
+        <Button x:Name="Loginbtn" Content="LogIn" HorizontalAlignment="Left" Margin="288,314,0,0" VerticalAlignment="Top" Width="127" Height="29" Background="#FF4B8C41" FontSize="16" FontWeight="Bold" Click="Loginbtn_Click"/>
     </Grid>
 </Window>

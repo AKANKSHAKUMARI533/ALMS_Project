@@ -13,3 +13,33 @@ C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.csproj.GenerateResource
 C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.csproj.CoreCompileInputs.cache
 C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.exe
 C:\Users\amarp\source\repos\ALMS\ALMSPL\obj\Debug\ALMSPL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSPL.exe.config
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSPL.exe
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSPL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL.csprojAssemblyReference.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\MainWindow.g.cs
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\App.g.cs
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL_MarkupCompile.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL_MarkupCompile.lref
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\MainWindow.baml
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL.g.resources
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL.Properties.Resources.resources
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL.csproj.GenerateResource.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL.csproj.CoreCompileInputs.cache
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL.exe
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\AdminHomePage.g.cs
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\EmployeeHomePage.g.cs
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSBLL.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSEntity.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSException.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSBLL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSEntity.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSException.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\AdminHomePage.baml
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\EmployeeHomePage.baml
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ALMSPL.csproj.CopyComplete
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSDAL.dll
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\bin\Debug\ALMSDAL.pdb
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ManagerHomePage.g.cs
+D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\ManagerHomePage.baml
