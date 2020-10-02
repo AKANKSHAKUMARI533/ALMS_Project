@@ -4,26 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSPL\obj\Debug\
-=======
-D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\obj\Debug\
->>>>>>> 74b8b1405f90c34b2ff2b57abdd66965b3dc8446
 ALMSPL
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSPL\App.xaml
-11151548125
-=======
-D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSPL\App.xaml
-4820529798
->>>>>>> 74b8b1405f90c34b2ff2b57abdd66965b3dc8446
+6612318079
 
-8-319478042
-161034004842
-AdminHomePage.xaml;EmployeeHomePage.xaml;MainWindow.xaml;ManagerHomePage.xaml;
+101011983323
+16-1449679996
+AddEmployee.xaml;AdminHomePage.xaml;EmployeeHomePage.xaml;ForgotPassword.xaml;MainWindow.xaml;ManagerHomePage.xaml;
 
 False
 

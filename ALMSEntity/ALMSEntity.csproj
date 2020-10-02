@@ -44,6 +44,7 @@
     <Compile Include="AdminEntity.cs" />
     <Compile Include="AttendanceEntity.cs" />
     <Compile Include="EmployeeEntity.cs" />
+    <Compile Include="ForgotPasswordEntity.cs" />
     <Compile Include="LeaveEntity.cs" />
     <Compile Include="LoginEntity.cs" />
     <Compile Include="ProjectEntity.cs" />

@@ -9,7 +9,7 @@
     <Grid Background="#FFA3BCD7">
         <Label Content="Welcome ...Admin Home Page" HorizontalAlignment="Left" Margin="193,136,0,0" VerticalAlignment="Top" Height="60" Width="342" FontSize="24"/>
         <Button Content="Project" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="113" Height="43" FontSize="24" Background="#FF59B730" BorderBrush="#FF370909"/>
-        <Button Content="View Employee" HorizontalAlignment="Left" Margin="229,10,0,0" VerticalAlignment="Top" Width="203" Height="43" FontSize="24" Background="#FF59B730" BorderBrush="#FF370909"/>
+        <Button Content="View Employee" HorizontalAlignment="Left" Margin="229,10,0,0" VerticalAlignment="Top" Width="203" Height="43" FontSize="24" Background="#FF59B730" BorderBrush="#FF370909" Click="Employee"/>
         <Button Content="View Manager" HorizontalAlignment="Left" Margin="544,10,0,0" VerticalAlignment="Top" Width="203" Height="43" FontSize="24" Background="#FF59B730" BorderBrush="#FF370909"/>
 
     </Grid>

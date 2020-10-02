@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ALMSEntity
 {
-    class LeaveEntity
+    public class LeaveEntity
     {
         public int LeaveRequestID { get; set; }
         public string LeaveType { get; set; }

@@ -45,10 +45,21 @@
     <Compile Include="AttedanceDAL.cs" />
     <Compile Include="DALStatic.cs" />
     <Compile Include="EmployeeDAL.cs" />
+    <Compile Include="ForgotPasswordDAL.cs" />
     <Compile Include="LeaveDAL.cs" />
     <Compile Include="LoginDAL.cs" />
     <Compile Include="ProjectDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ALMSEntity\ALMSEntity.csproj">
+      <Project>{3510223d-6f5d-47f1-b99f-316ce3a92aa4}</Project>
+      <Name>ALMSEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ALMSException\ALMSException.csproj">
+      <Project>{0eb6fa14-dec0-4ae4-8140-74293d692611}</Project>
+      <Name>ALMSException</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,45 @@
+﻿<Window x:Class="ALMSPL.AddEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALMSPL"
+        mc:Ignorable="d"
+        Title="AddEmployee" Height="450" Width="800">
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="txtName"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txtEmail"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txtPhone"/>
+
+        <Label Content="Employee Role" HorizontalAlignment="Left" Margin="10,195,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="125,195,0,0" VerticalAlignment="Top" Width="120" Name="empRole" >
+            <ComboBoxItem Content="Select"/>
+            <ComboBoxItem Content="A5"/>
+            <ComboBoxItem Content="A4"/>
+            <ComboBoxItem Content="A3"/>
+            <ComboBoxItem Content="A2"/>
+        </ComboBox>
+
+        <Label Content="Password" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txtPassword"/>
+        <Label Content="Manager Id" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txtMId"/>
+        <Label Content="Project Id" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txtPId" />
+        <Button Content="Save Details" HorizontalAlignment="Left" Margin="15,380,0,0" VerticalAlignment="Top" Width="75" Click="SaveDetails"/>
+        <Label Content="Employee Details" HorizontalAlignment="Left" Margin="305,10,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="25"/>
+        <DataGrid HorizontalAlignment="Left" Height="204" Margin="351,58,0,0" VerticalAlignment="Top" Width="431" Name="dgEmployees" ItemsSource="{Binding}" />
+        <Label Content="Id :" HorizontalAlignment="Left" Margin="400,320,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="440,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txtId"/>
+        <Button Content="Search Employee" HorizontalAlignment="Left" Margin="580,320,0,0" VerticalAlignment="Top" Width="107" Click="SearchEmployee" />
+        <Button Content="Update Employee" HorizontalAlignment="Left" Margin="450,280,0,0" VerticalAlignment="Top" Width="106" Click="UpdateEmployee" />
+        <Button Content="Delete Employee" HorizontalAlignment="Left" Margin="600,280,0,0" VerticalAlignment="Top" Width="96" Click="DeleteEmployee" />
+        <Label Content="Status" HorizontalAlignment="Left" Margin="10,349,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="txtStatus"/>
+
+
+    </Grid>
+</Window>

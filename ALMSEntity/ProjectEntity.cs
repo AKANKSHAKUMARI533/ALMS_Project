@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ALMSEntity
 {
-    class ProjectEntity
+    public class ProjectEntity
     {
         public int ProjectID { get; set; }
         public string Project_Name { get; set; }

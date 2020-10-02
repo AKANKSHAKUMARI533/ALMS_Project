@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ALMSException
+namespace ALMSExceptions
 {
     /// <summary>
     /// Exception Class to catch the Exceptions occuring in Attendance Leave Management System(ALMS)

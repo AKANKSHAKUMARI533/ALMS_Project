@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ALMSDAL
 {
-    static class DALStatic
+    public static class DALStatic
     {
-       public static string connectionString = @"Data Source=LAPTOP-261FR7PG\SQLEXPRESS;Initial Catalog=Project_DB;Integrated Security=True";
+       public static string connectionString = @"Data Source=DESKTOP-O6L8JVS\SQLEXPRESS;Initial Catalog=Project_DB;Integrated Security=True";
 
     }
 }

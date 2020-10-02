@@ -17,3 +17,16 @@ D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final p
 D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSEntity.pdb
 D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\bin\Debug\ALMSException.pdb
 D:\Capgemini\Project\Attendance and Leave Management\AttendanceLeaveMgmt\final project\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.csproj.CopyComplete
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\bin\Debug\ALMSBLL.dll
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\bin\Debug\ALMSBLL.pdb
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\bin\Debug\ALMSDAL.dll
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\bin\Debug\ALMSEntity.dll
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\bin\Debug\ALMSException.dll
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\bin\Debug\ALMSDAL.pdb
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\bin\Debug\ALMSEntity.pdb
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\bin\Debug\ALMSException.pdb
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.csproj.CopyComplete
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.dll
+C:\Users\DELL\Desktop\Git\ALMS_Project\ALMSBLL\obj\Debug\ALMSBLL.pdb

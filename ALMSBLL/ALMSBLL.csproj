@@ -53,6 +53,7 @@
     <Compile Include="AdminBLL.cs" />
     <Compile Include="AttendanceBLL.cs" />
     <Compile Include="EmployeeBLL.cs" />
+    <Compile Include="ForgotPasswordBLL.cs" />
     <Compile Include="LeaveBLL.cs" />
     <Compile Include="LoginBLL.cs" />
     <Compile Include="ProjectBLL.cs" />

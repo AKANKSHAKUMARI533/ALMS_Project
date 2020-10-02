@@ -371,7 +371,7 @@ BEGIN
 END
 GO
 
-exec spAddEmployee 'dhara', 'dhara@gmail.com','8888888888','Analyst','Active', 'password',1001,101;
+exec spAddEmployee 'akanksha', 'aaabb@gmail.com','78945614560','A4','Active', 'password',1001,101;
 select * from employee;
 
 /*-----------------Delete Employee -------------------------*/
@@ -423,10 +423,10 @@ END
 GO
 
 exec spModifyEmployeeDetails 
-@eId = 1002,
+@eId = 1004,
 	@Employee_Name ='dhara',
-	@Employee_Email = 'radha@gmail.com' ,
-	@Employee_Phone_Number= '4545676765',
+	@Employee_Email = 'ra@gmail.com' ,
+	@Employee_Phone_Number= '888888888',
 	@Employee_Role ='manager',
 	@Employee_Status = 'Active',
 	@Employee_Password = 'asdasd' ,
@@ -435,6 +435,26 @@ exec spModifyEmployeeDetails
 
 
 	select * from employee;
+
+Create Procedure spSearchEmployee
+	@eId int
+
+As
+Begin
+	SET NOCOUNT ON;
+	select * from employee where Employee_ID=@eid;
+End
+Go
+
+create Procedure spGetAllEmployee
+	As
+	Begin
+	Set Nocount on;
+	select * from Employee;
+end
+go
+
+exec spGetAllEmployee
 
 	/*--------------------------login logout ---------------------------*/
 
@@ -466,6 +486,30 @@ GO
 exec spLoginAdmin 100001, password;
 
 
+drop procedure spForgotPassword
+
+create procedure spForgotPassword
+@eEmail nvarchar(50),
+@eId int
+AS
+BEGIN
+	SET NOCOUNT ON;
+	select Employee_Password from Employee where Employee_Email=@eEmail and Employee_ID=@eId;
+END
+GO
+
+exec spForgotPassword @eEmail="akku@gmail.com", @eId=1018
+
+
+create procedure spForgot
+@Email nvarchar(50),
+@Id int
+AS
+BEGIN
+	SET NOCOUNT ON;
+	select Employee_Password from Employee where Employee_Email=@Email and Employee_ID=@Id;
+END
+GO
 
 
 

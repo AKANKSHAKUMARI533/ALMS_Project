@@ -27,20 +27,7 @@ namespace ALMSPL
             InitializeComponent();
         }
 
-        private void txtUserId_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void rbtnAdmin_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void rbtnEmployee_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
+      
 
         private void Loginbtn_Click(object sender, RoutedEventArgs e)
         {
@@ -104,6 +91,13 @@ namespace ALMSPL
             {
                 MessageBox.Show("Something went wrong....please try again ");
             }
+        }
+
+        private void ForgetPassword(object sender, RoutedEventArgs e)
+        {
+            ForgotPassword forgotPasswordPage = new ForgotPassword();
+            this.Close();
+            forgotPasswordPage.Show();
         }
     }
 }

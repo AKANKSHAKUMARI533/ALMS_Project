@@ -23,5 +23,13 @@ namespace ALMSPL
         {
             InitializeComponent();
         }
+
+
+        private void Employee(object sender, RoutedEventArgs e)
+        {
+            AddEmployee addEmployeePage = new AddEmployee();
+            this.Close();
+            addEmployeePage.Show();
+        }
     }
 }
